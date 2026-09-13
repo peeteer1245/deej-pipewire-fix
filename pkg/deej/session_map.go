@@ -117,7 +117,7 @@ func (m *sessionMap) getAndAddSessions() error {
 		}
 	}
 
-	m.logger.Infow("Got all audio sessions successfully", "sessionMap", m)
+	m.logger.Infow("Got all audio sessions successfully", "sessionMap", m.m)
 
 	return nil
 }
